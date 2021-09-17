@@ -104,7 +104,7 @@ namespace StudentDemo.Controllers
         }
         //
 
-        // GET: api/LinkedIns/5
+        // GET: api/LinkedIns
         [HttpGet("{id}")]
         public async Task<ActionResult<LinkedInPost>> GetLinkedIn(long id)
         {
