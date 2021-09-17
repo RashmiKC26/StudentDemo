@@ -31,7 +31,8 @@ namespace StudentDemo.Controllers
                                       {
                                           Id = f.Id,
                                           InputText = f.InputText,                                         
-                                          CreatedOn = f.CreatedOn
+                                          CreatedOn = f.CreatedOn,
+                                          ImageBase64 = f.ImageBase64
 
                                       }).OrderByDescending(a=>a.CreatedOn).ToListAsync();
          

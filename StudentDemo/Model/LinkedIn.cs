@@ -14,17 +14,9 @@ namespace StudentDemo.Model
         public long? Id { get; set; }
         public string InputText { get; set; }
         public DateTime? CreatedOn { get; set; }
+        public string ImageBase64 { get; set; }
     }
 
-    public class LinkedInList
-    {
-        public long? Id { get; set; }
-        public string InputText { get; set; }
-        public DateTime? CreatedOn { get; set; }
-        public List<LinkedInLikes> LinkedInLikes { get; set; }
-        public List<LinkedInComments> LinkedInComments { get; set; }
-       
-    }
 
     public class LinkedIn
     {
@@ -33,6 +25,7 @@ namespace StudentDemo.Model
         public string InputText { get; set; }
         public DateTime? CreatedOn { get; set; }
         public bool HighlightTrue { get; set; }
+        public string ImageBase64 { get; set; }
         public List<LinkedInLikes> LinkedInLikes { get; set; }
         public List<LinkedInComments> LinkedInComments { get; set; }
     }
